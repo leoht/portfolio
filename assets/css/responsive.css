@@ -1,0 +1,31 @@
+
+
+/*
+* Desktop
+*/
+
+@media all and (min-width: 960px) {
+
+	h1 {
+		width: 960px;
+	}
+
+}
+
+
+/*
+* Small devices
+*/
+
+@media all and (max-width: 480px) {
+
+	h1 {
+		width: 360px;
+		font-size: 72px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+	
+}

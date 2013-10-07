@@ -1,0 +1,126 @@
+
+@viewport {
+   width: device-width;
+   user-scalable: no;
+}
+
+
+/*
+* Large devices
+*/
+
+@media all and (max-width: 960px) {
+	.page.intro h1 {
+		font-size: 72px;
+		line-height: 80px;
+		width: 640px;
+	}
+
+	.skills_section {
+		width: auto;
+	}
+
+	.breadcrumb-container {
+		width: auto;
+	}
+
+	.whiteblock {
+		width: auto;
+	}
+
+	.contact-form {
+		width: 80%;
+	}
+
+	.page.contact h2 {
+		font-size: 48px;
+		width: 640px;
+		margin: auto;
+	}
+
+	
+}
+
+/*
+* Medium devices
+*/
+
+@media all and (max-width: 640px) {
+
+	.show-menu img {
+		width: 30px;
+		height: 25px;
+	}
+
+	nav {
+		top: 20px;
+		left: 70px;
+		padding-left: 0px;
+	}
+
+	.page.intro h1 {
+		font-size: 62px;
+		line-height: 70px;
+		width: 80%;
+		padding-top: 15%;
+	}
+
+	.page.skills h2, .page.work h2, .page.about h2 {
+		font-size: 18px;
+		margin-left: 20px;
+		width: 80%;
+
+	}
+
+	.page.about p {
+		font-size: 22px;
+		line-height: 24px;
+
+	}
+
+
+	.page.contact h2 {
+		font-size: 42px;
+		width: 480px;
+	}
+}
+
+
+@media all and (max-device-width: 1280px) and (orientation: landscape) {
+
+	.page.intro {
+		padding-bottom: 30%;
+	}
+}
+
+/*
+* Small devices
+*/
+
+@media all and (max-width: 480px) {
+
+	.page.intro h1 {
+		font-size: 44px;
+		line-height: 52px;
+		padding-top: 20%;
+	}
+
+
+	.skills_section {
+		text-align: center;
+	}
+
+	.skills_section img {
+		float: none;
+	}
+
+	.page.contact h2 {
+		font-size: 32px;
+		width: 320px;
+	}
+
+	.page.about p img {
+		width: 300px;
+		height: 305px;
+	}
+}
